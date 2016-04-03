@@ -6,67 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Semantic UI Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- custom styleSheets -->
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <!-- Semantic UI Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js" charset="utf-8"></script>
 </head>
 
 <body>
-    <div id="main-container" class="container">
-        <div class="row">
-            <div id="sidebar" class="col-xs-12">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">ali hassan</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Portfolio <span class="sr-only">(current)</span></a></li>
-                                <li><a href="blog/index.html">blog</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
-                            <form class="navbar-form navbar-left" role="search">
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Search" type="text">
-                                </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
-                            </form>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Link</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div id="content" class="col-xs-9">
-                <img class="circular" src="images/profilepic.jpg" />
-                <p class="imgcaption"> loves games , anime , game dev.
-                    <p/>
+    <!-- Header -->
+    <div id="main-header" class="ui large top hidden menu inverted">
+        <!--Container-->
+        <div class="ui container">
+            <a class="item" href="blog/index.html">About</a>
+            <a class="item" href="blog/index.html">Projects</a>
+            <a class="item" href="blog/index.html">Blog</a>
+            <a class="item" href="blog/index.html">Contact</a>
+        </div>
+        <!-- Container -->
+    </div>
+    <!-- /Header-->
+    <div class="ui container grid">
+        <div class="sixteen wide center aligned column">
+            <img class="ui small circular image" id="profile-image" src="public/images/profilepic.jpg">
+            <p>loves games , anime , game dev.<p/>
+        </div>
+        <div class="sixteen wide column">
+            <div class="ui segment">
+                <h2><u>hello and welcome to my blog</u></h2>
+                <p>
+                    hello , stranger .
+                    <br> it's a pleasure having you , please take a seat .
                     <br>
-                    <div class="jumbotron">
-                        <h2><u>hello and welcome to my blog</u></h2>
-                        <p>
-                            hello , stranger .
-                            <br> it's a pleasure having you , please take a seat .
-                            <br>
-                            <img style=" margin-left: auto; margin-right: auto;" src="images/haveATea.jpg" />
-                            <br> let me introduce myself ... my name is ali hassan
-                            <br> i was born in 1994 . i live in helwan .
-                            <br> and i am studing Digital Media Engineering in the German Universiry in Cairo . and i go to school by microbus :3
-                            <br> well , that's enough about me .
-                            <br> please feel free to check the blog ...
-                            <br>
-                            <a link="blog.com">there is no blog online yet but if you want you can imagine that you already saw the blog but had no time to read because you are super busy</a>
-                            <h3>another Note</h3>
-                            <b>all links here are broken but feel free to click on them to make sure ;)</b>
-                        </p>
-                    </div>
+                    <img style=" margin-left: auto; margin-right: auto;" src="public/images/haveATea.jpg" />
+                    <br> let me introduce myself ... my name is ali hassan
+                    <br> i was born in 1994 . i live in helwan .
+                    <br> and i am studing Digital Media Engineering in the German Universiry in Cairo . and i go to school by microbus :3
+                    <br> well , that's enough about me .
+                    <br> please feel free to check the blog ...
+                    <br>
+                    <a link="blog.com">there is no blog online yet but if you want you can imagine that you already saw the blog but had no time to read because you are super busy</a>
+                    <h3>another Note</h3>
+                    <b>all links here are broken but feel free to click on them to make sure ;)</b>
+                </p>
             </div>
         </div>
     </div>
